@@ -9,7 +9,7 @@ pipeline {
         // }
         stage('Run') {
             steps {
-                bat 'python hello.py'
+                bat '"C:\\Users\\Sujith\\AppData\\Local\\Programs\\Python\\Python310\\python.exe" hello.py'
             }
         }
     }
